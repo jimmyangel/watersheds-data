@@ -19,7 +19,7 @@ for polygon in features:
         if polygonId != i:
             candidateFeature = layer.getFeature(i)
             if candidateFeature.geometry().intersects(pointOnPolygon):
-                if polygon.geometry().area() < candidateFeature.geometry().area():
+                if polygon.geometry().area() <= candidateFeature.geometry().area():
                     polygon['POP_TOTAL'] += candidateFeature['POP_EST_19']
                     layer.updateFeature(polygon)
                     counter += 1
