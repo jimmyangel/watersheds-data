@@ -1,5 +1,5 @@
 # watersheds-data
-Data supporting Oregon watersheds project
+Data supporting Oregon Wild's drinking watersheds project
 
 Files and folders:
 
@@ -14,3 +14,7 @@ Files and folders:
     * ```generate-web-layer.sh``` - [Mapshaper](https://mapshaper.org/) script used to generate the geojson file used by the watersheds web tool; must be run after any watershed layer changes
 * ```basedata``` - Folder containing original data sources
 * ```watershedlayers.qgz``` - QGIS project info
+
+---
+
+Data herein are derived from U.S. and Oreogn Government datasets and as such they are in the [Public Domain](https://creativecommons.org/publicdomain/zero/1.0/)
