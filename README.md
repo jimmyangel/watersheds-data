@@ -1,5 +1,5 @@
 # watersheds-data
-Data supporting Oregon Wild's drinking watersheds project
+Data supporting Oregon Wild's drinking watersheds project and associated [web application](https://watersheds.oregonhowl.org/).
 
 Files and folders:
 
